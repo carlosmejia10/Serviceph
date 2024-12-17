@@ -23,7 +23,7 @@ const Servicios = () => {
         "Existe un servicio que está revolucionando el mercado de propiedad horizontal, la sustitución del administrador.",
         "En cualquier instante, si la gestión del administrador no satisface las necesidades del cliente y los copropietarios deciden que no es la persona indicada para llevar las riendas, SERVICEPH, se encarga de realizar el cambió del funcionario evitando traumatismos.",
       ],
-      image: "/src/assets/pexels-ekaterina-bolovtsova-6077961.jpg",
+      image: "/public/assets/pexels-ekaterina-bolovtsova-6077961.jpg",
     },
     {
       title: "OUTSOURCING",
@@ -31,14 +31,14 @@ const Servicios = () => {
         "Nuestros servicios de outsourcing, permiten una prestación más eficiente de determinadas actividades, concediendo al administrador de más tiempo para centrarse en los aspectos claves de la convivencia de la propiedad.",
         "Contamos con el mejor recurso humano en las áreas de revisoría fiscal, contable, jurídica, suministro de personal de mantenimiento, aseo y vigilancia, asesoramiento en informática, software, seguridad y salud en el trabajo y otros servicios especializados.",
       ],
-      image: "/src/assets/pexels-pavel-danilyuk-8112172.jpg",
+      image: "/public/assets/pexels-pavel-danilyuk-8112172.jpg",
     },
     {
       title: "REVISORÍA FISCAL",
       text: [
         "Nuestros profesionales especialistas en Revisoría Fiscal, ejercen inspección y vigilancia de la copropiedad, velando, en todo momento, por el cumplimiento de las leyes, normas y de las decisiones de los órganos de administración, y dan fe pública al respecto.",
       ],
-      image: "/src/assets/pexels-pixabay-48148.jpg",
+      image: "/public/assets/pexels-pixabay-48148.jpg",
     },
   ];
 
@@ -58,7 +58,7 @@ const Servicios = () => {
               className="flex flex-col md:flex-row items-start gap-6 cursor-pointer transform transition-transform duration-300 hover:-translate-y-2 hover:bg-gray-100 p-4 rounded-md"
             >
               <img
-                src="/src/assets/pexels-mohamed-hamdi-510308652-16282306.jpg"
+                src="/public/assets/pexels-mohamed-hamdi-510308652-16282306.jpg"
                 alt="MODELO DE GESTIÓN"
                 className="w-full md:w-64 h-48 object-cover rounded-md"
               />

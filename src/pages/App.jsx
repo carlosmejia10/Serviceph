@@ -24,7 +24,7 @@ function App() {
         <div>
           <figure className="h-[506px] w-auto flex items-center justify-center gap-20">
             <img
-              src="/src/assets/hero1.svg"
+              src="/public/assets/hero1.svg"
               alt="Hero Image"
               className="object-contain"
             />
@@ -48,7 +48,7 @@ function App() {
             <figure className="w-1/4 mr-20">
               <img
                 className="w-full"
-                src="/src/assets/5057948.jpg"
+                src="/public/assets/5057948.jpg"
                 alt=""
               />
             </figure>
@@ -57,7 +57,7 @@ function App() {
             <figure className="w-1/4 ml-32">
               <img
                 className="w-full"
-                src="/src/assets/3074334.jpg"
+                src="/public/assets/3074334.jpg"
                 alt=""
               />
             </figure>

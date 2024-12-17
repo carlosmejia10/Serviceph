@@ -10,7 +10,7 @@ const AsideMenu = () => {
           <li className="text-primary text-xl font-light flex items-center gap-2 md:text-lg lg:text-2xl">
             <img
               className="rounded-full w-10 h-10 object-cover md:w-8 md:h-8 lg:w-6 lg:h-6"
-              src="/src/assets/5057948.jpg"
+              src="/public/assets/5057948.jpg"
               alt="Service PH Logo"
             />
             Service PH
@@ -23,7 +23,7 @@ const AsideMenu = () => {
               } md:px-3 md:py-0.5 lg:px-2 lg:py-0.5`}
             >
               <img
-                src="/src/assets/home.svg"
+                src="/public/assets/home.svg"
                 alt="Inicio"
                 className="w-5 h-5 md:w-4 md:h-4 lg:w-5 lg:h-5"
               />
@@ -38,7 +38,7 @@ const AsideMenu = () => {
               } md:px-3 md:py-0.5 lg:px-2 lg:py-0.5`}
             >
               <img
-                src="/src/assets/Servicios.svg"
+                src="/public/assets/Servicios.svg"
                 alt="Servicios"
                 className="w-5 h-5 md:w-4 md:h-4 lg:w-5 lg:h-5"
               />
@@ -53,7 +53,7 @@ const AsideMenu = () => {
               } md:px-3 md:py-0.5 lg:px-2 lg:py-0.5`}
             >
               <img
-                src="/src/assets/Contacto.svg"
+                src="/public/assets/Contacto.svg"
                 alt="Clientes"
                 className="w-5 h-5 md:w-4 md:h-4 lg:w-5 lg:h-5"
               />
@@ -68,7 +68,7 @@ const AsideMenu = () => {
               } md:px-3 md:py-0.5 lg:px-2 lg:py-0.5`}
             >
               <img
-                src="/src/assets/Contacto.svg"
+                src="/public/assets/Contacto.svg"
                 alt="Contacto"
                 className="w-5 h-5 md:w-4 md:h-4 lg:w-5 lg:h-5"
               />
