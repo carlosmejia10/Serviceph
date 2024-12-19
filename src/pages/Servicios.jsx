@@ -58,7 +58,7 @@ const Servicios = () => {
         <div className="hidden md:block md:w-1/4">
           <AsideMenu />
         </div>
-        <div className="bg-white flex-1 p-4 md:p-10 overflow-hidden">
+        <div className="bg-white flex-1 p-2 md:p-10 overflow-hidden">
           <h1 className="text-4xl font-bold mb-8  md:mb-16 mt-11 text-primary">
             Nuestros Servicios
           </h1>
