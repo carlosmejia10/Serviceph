@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 const Servicios = () => {
   // Estado para expandir o colapsar cada sección
   const [expanded, setExpanded] = useState({});
+  // Estado para controlar la visibilidad del AsideMenu
+  const [asideVisible, setAsideVisible] = useState(false);
 
   // Función para alternar el estado de expansión
   const toggleExpand = (index) => {
@@ -13,6 +15,11 @@ const Servicios = () => {
       ...prevState,
       [index]: !prevState[index],
     }));
+  };
+
+  // Función para alternar la visibilidad del AsideMenu
+  const toggleAsideMenu = () => {
+    setAsideVisible(!asideVisible);
   };
 
   // Datos de los servicios
@@ -44,17 +51,20 @@ const Servicios = () => {
 
   return (
     <>
-      <main className="flex flex-col md:flex-row bg-white mt-20 h-auto md:h-3/6">
+      <div className="block md:hidden">
+      </div>
+      <AsideMenu />
+      <main className="flex flex-col md:flex-row mb-32 bg-white h-auto md:h-3/6 ">
         <div className="hidden md:block md:w-1/4">
           <AsideMenu />
         </div>
         <div className="bg-white flex-1 p-4 md:p-10 overflow-hidden">
-          <h1 className="text-4xl font-bold mb-8 md:mb-16 mt-8 text-primary">
+          <h1 className="text-4xl font-bold mb-8  md:mb-16 mt-11 text-primary">
             Nuestros Servicios
           </h1>
           <div className="h-auto md:h-[40rem] space-y-8 overflow-auto">
             <Link
-              to="/modelo-de-gestion"
+              to="/gestion"
               className="flex flex-col md:flex-row items-start gap-6 cursor-pointer transform transition-transform duration-300 hover:-translate-y-2 hover:bg-gray-100 p-4 rounded-md"
             >
               <img
